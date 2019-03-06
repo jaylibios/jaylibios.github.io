@@ -49,6 +49,19 @@ h3 {
 	height: 93vh;
 }
 
+#about-me {
+	background-color: #EFEFEF;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+}
+
+#about-me .container {
+	width: 50%;
+}
+
 /* footer */
 #footer {
 	background-color: #EFEFEF;
