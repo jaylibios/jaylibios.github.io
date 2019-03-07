@@ -50,6 +50,7 @@ h3 {
 }
 
 #about-me {
+	font-family: 'Roboto', sans-serif;
 	background-color: #EFEFEF;
 	flex-direction: column;
 	justify-content: center;
