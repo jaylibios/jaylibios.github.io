@@ -139,27 +139,43 @@ section > h1 {
 }
 
 .project .info {
-	padding: 20px 10px;
+	padding: 30px 10px;
 	width: 80%;
 }
 
 .project .info .title {
 	font-weight: 100;
+	color: #000000;
 }
 
 .project .info > p {
 	font-family: "Roboto", sans-serif;
-	margin: 20px 0 27px;
+	margin-top: 20px;
 }
 
-.project .info > a {
+.project .languages {
+	width: 20%;
+	margin-bottom: 13px;
+}
+
+.project .languages > p {
+	color: #fefbd8;
+	border-radius: 10px;
+	font-size: 10px;
+}
+
+.project .languages .middle {
+	margin: 0 7px;
+}
+
+.project .info .links a {
 	border: 2px solid #618685;
 	color: #000000;
 	padding: 7px;
 	border-radius: 10px;
 }
 
-.project .info > a:hover {
+.project .info .links a:hover {
 	background-color: #618685;
 	color: #fefbd8;
 }
