@@ -1,21 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script.js"></script>
 	<title>Jadelyn Libios Portfolio</title>
 </head>
 <body>
-	<nav id="navigation">
-		<ul>
-			<li><a href="">HOME</a></li>
-			<li><a href="">ABOUT</a></li>
-			<li><a href="">PORTFOLIO</a></li>
-		</ul>
-	</nav>
+	
 
-	<header id="header">
-		<div class=""><h1>Jadelyn Libios</h1>
-				<h3>Apsiring Full Stack Developer</h3></div>
+	<header id="header" class="header">
+		<div class="container flexbox">
+			<div class="text">
+				<h1 class="heading">Jadelyn Libios</h1>
+				<h3 class="subheading">Apsiring Full Stack Developer</h3>
+			</div>
+			<nav id="navigation" class="nav-bar">
+				<ul class="links flexbox">
+					<li><a href="#">home</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#portfolio">portfolio</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
+
+	<section id="about" class="about">
+		<h1>About Me</h1>
+		<div class="container flexbox">
+			<!-- upload edited pic --->
+			<img src="images/portfolio-img.jpg">
+			<div class="text">
+				<p>Hello there, I'm Jadelyn. I'm a fourth-year student studying Computer Information Systems at the University of Houston. I got started with coding my senior year of high school when I took an Intro to Web Development course. Since then, I have spent much of my time learning new languages and concepts through college courses and personal dedication.</p>
+				<br>
+				<p>When I'm not in school, you can find me at the gym, gaming, or organizing events with my sorority, Sigma Kappa. I'm currently working on my web development skills through freecodecamp's free online course.</p>
+				<br>
+				<p>This site is constantly being updated. Check back again soon to see what I've been up to!</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio" class="portfolio">
+		<h1>Portfolio</h1>
+		<div class="container">
+			<div class="project flexbox">
+				<img src="images/rps-game.jpg">
+				<div class="info">
+					<h1 class="title">Rock, Paper, Scissors</h1>
+					<p>In the middle of my freecodecamp adventure, I created this game to test and apply my JavaScript knowledge.</p>
+					<a href="https://codepen.io/jaylibios/pen/jJRjoz?editors=0110" target="_blank" class="demo">Live Demo</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="flexbox">
+		<div class="icons">
+			<img src="images/icons/codepen.png" class="icon codepen">
+			<img src="images/icons/github.png" class="icon github">
+			<img src="images/icons/linkedin.png" class="icon linkedin">
+			<img src="images/icons/email.png" class="icon email">
+			<img src="images/icons/resume.png" class="icon resume">
+		</div>
+		<p>Created by Jadelyn Libios</p>
+	</footer>
 
 </body>
 </html>
